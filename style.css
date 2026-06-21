@@ -338,6 +338,104 @@
         font-size: 0.8rem;
     }
     
+    .hero-menu-section {
+        height: 80vh;
+        background-color: rgb(73, 1, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgba(240, 248, 255, 0.76);
+    }
+    
+    .hero-menu-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-weight: 100;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        align-items: center;
+    }
+    
+    .hero-menu-content span {
+        color: rgba(253, 214, 162, 0.653);
+    }
+    
+    .menu-hero-title {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 4.2rem;
+        font-style: italic;
+    }
+    
+    .menu-hero-text {
+        font-size: 1.2rem;
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        width: 450px;
+    }
+    
+    .menu-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 55px;
+        gap: 80px;
+    }
+    
+    .menu-section-label {
+        font-weight: 100;
+        color: rgb(252, 161, 101);
+        font-size: 0.7rem;
+    }
+    
+    .underline {
+        border-bottom: 1.8px solid rgb(255, 162, 100);
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+    
+    .menu-section-title {
+        display: inline;
+        font-size: 2.8rem;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+    }
+    
+    .menu-section-items {
+        width: 700px;
+        height: 300px;
+    }
+    
+    .menu-item-name,
+    .manu-item-price {
+        display: inline;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        margin-bottom: 10px;
+        margin-top: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .menu-item-top {
+        border-bottom: 1px solid rgba(136, 55, 1, 0.427);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .menu-item-desc {
+        font-weight: 100;
+        font-size: 0.6rem;
+        color: rgba(72, 30, 0, 0.559);
+    }
+    
     @media (max-width: 768px) {
         .navbar {
             padding: 15px 30px;
