@@ -375,4 +375,61 @@
         .hero-description {
             width: 300px;
         }
+        .experience {
+            padding: 50px 25px;
+        }
+        .cards-contanier {
+            flex-direction: column;
+            gap: 15px;
+        }
+        .card {
+            padding: 25px;
+            height: 100px;
+            width: 300px;
+            padding-top: 20px;
+            padding-left: 80px;
+        }
+        .card-content {
+            font-size: 0.7rem;
+        }
+        .card::after {
+            font-size: 15px;
+            color: rgb(73, 30, 0);
+            width: 40px;
+            height: 40px;
+            background-color: rgb(255, 221, 176);
+            top: 25%;
+            left: 5%;
+        }
+        .story-section {
+            padding: 0px 10px;
+            margin-bottom: 20px;
+        }
+        .story-container {
+            flex-direction: column;
+        }
+        .story-content {
+            flex-direction: column;
+            padding: 5px;
+        }
+        .latte-img {
+            width: 350px;
+            height: 300px;
+        }
+        .cta-text {
+            text-align: center;
+            color: rgba(53, 28, 10, 0.826);
+            font-weight: 100;
+            width: 350px;
+        }
+        .footer-section {
+            grid-template-columns: 1fr;
+            padding: 10px;
+            gap: 10px;
+            font-size: 0.8rem;
+        }
+        .bottom-section {
+            height: 8vh;
+            margin-top: 35px;
+        }
     }
