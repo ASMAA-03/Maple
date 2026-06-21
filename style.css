@@ -248,6 +248,7 @@
         color: rgb(53, 28, 10);
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
+        font-size: 3.2rem;
     }
     
     .story-link a:hover {
@@ -400,6 +401,9 @@
             background-color: rgb(255, 221, 176);
             top: 25%;
             left: 5%;
+        }
+        .story-title {
+            font-size: 1.2rem;
         }
         .story-section {
             padding: 0px 10px;
