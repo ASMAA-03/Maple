@@ -291,9 +291,10 @@
         height: 35vh;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 40px 150px;
+        padding: 70px 150px;
         gap: 30px;
         font-weight: 100;
+        border-top: 1px solid rgba(53, 28, 10, 0.247);
     }
     
     .footer-column h3 {
@@ -410,6 +411,7 @@
     .menu-section-items {
         width: 700px;
         height: 300px;
+        margin-top: 25px;
     }
     
     .menu-item-name,
@@ -434,6 +436,79 @@
         font-weight: 100;
         font-size: 0.6rem;
         color: rgba(72, 30, 0, 0.559);
+    }
+    
+    .drinks-section {
+        height: 55vh;
+        padding: 370px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .drinks-category-container {
+        border: 1px solid rgb(230, 213, 201);
+        background-color: rgb(255, 250, 247);
+        padding: 25px;
+        width: 50%;
+        height: 400px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px;
+    }
+    
+    .drinks-category-container span {
+        color: rgb(252, 161, 101);
+        font-size: 0.7rem;
+    }
+    
+    .drinks-category-container h1 {
+        font-size: 2.7rem;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-style: italic;
+    }
+    
+    .drinks-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 60px;
+    }
+    
+    .drinks-category-container span {
+        font-weight: 100;
+    }
+    
+    .menu-category-content h3 {
+        display: inline;
+        font-weight: 100;
+    }
+    
+    .drinks-category {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 0.8rem;
+        width: 300px;
+        text-align: left;
+    }
+    
+    .drinks-category p {
+        font-weight: 100;
+        color: rgba(53, 28, 10, 0.674);
+    }
+    
+    .menu-category-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(200, 100, 29);
+        color: rgb(53, 28, 10);
+        padding: 3px;
     }
     
     @media (max-width: 768px) {
