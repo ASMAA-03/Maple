@@ -567,6 +567,103 @@
         font-optical-sizing: auto;
     }
     
+    .contact-section {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: 100;
+        color: rgba(115, 49, 1, 0.764);
+    }
+    
+    .grid-contact {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        row-gap: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .contact-row h3 {
+        color: rgb(115, 48, 1);
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+    
+    .contact-row-content {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 455px;
+    }
+    
+    .contact-form {
+        background-color: rgba(255, 241, 218, 0.97);
+        width: 35%;
+        height: 70%;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    
+    .from-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        font-size: 0.9rem;
+        height: 100px;
+    }
+    
+    .contact-form-fields {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    
+    .send-btn {
+        border: none;
+        color: aliceblue;
+        background-color: rgb(99, 38, 0);
+        padding: 15px 25px;
+        border-radius: 25px;
+        transition: 0.4s;
+        cursor: pointer;
+        width: 40%;
+    }
+    
+    .send-btn:hover {
+        opacity: 0.9;
+    }
+    
+    .from-group input,
+    .from-group textarea {
+        width: 50%;
+        border: 1px solid rgba(72, 30, 0, 0.19);
+        border-radius: 3px;
+        background-color: rgba(109, 62, 0, 0.127);
+    }
+    
+    .from-group textarea {
+        width: 55%;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.4rem;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+    
+    .contact-form span {
+        font-size: 0.8rem;
+    }
+    
+    .from-group input:focus,
+    .from-group textarea:focus {
+        border-color: rgba(65, 27, 0, 0.315);
+        outline: none;
+    }
+    
     @media (max-width: 768px) {
         .navbar {
             padding: 15px 30px;
