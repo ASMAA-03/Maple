@@ -81,7 +81,7 @@
     .hero {
         position: relative;
         min-height: 80vh;
-        background-image: url(coffee-shop-interior.jpg);
+        background-image: url(images/coffee-shop-interior.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
