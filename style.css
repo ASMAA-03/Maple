@@ -809,7 +809,7 @@
         .drinks-category {
             gap: 5px;
             font-size: 0.7rem;
-            width: 180px;
+            width: 155px;
         }
         .drinks-category p {
             font-size: 0.7rem;
@@ -826,22 +826,25 @@
         }
         /*/////////////////////////////////*/
         .about-img-container {
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            height: 0vh;
         }
         .about-img {
-            border-radius: 35px;
+            display: none;
         }
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            height: 20vh;
+            grid-template-columns: repeat(1, 1fr);
+            min-height: 80vh;
             font-weight: 100;
-            padding: 50px;
-            margin-bottom: 50px;
-            gap: 80px;
+            padding: 5px;
+            gap: 20px;
+        }
+        .feature-item {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid rgba(115, 49, 1, 0.492);
+            border-radius: 15px;
+            height: 15vh;
         }
         .feature-item span {
             color: rgb(53, 28, 10);
@@ -856,7 +859,7 @@
             line-height: 25px;
         }
         .qoute-section {
-            height: 40vh;
+            height: 50vh;
             background-color: rgb(121, 43, 21);
             display: flex;
             flex-direction: column;
@@ -867,10 +870,11 @@
             text-align: center;
             gap: 15px;
             margin-bottom: 70px;
+            font-size: 0.7rem;
         }
         .qoute-text {
             font-size: 1.7rem;
-            width: 40%;
+            width: 80%;
             font-family: "Playfair Display", serif;
             font-optical-sizing: auto;
         }
