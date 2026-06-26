@@ -878,4 +878,36 @@
             font-family: "Playfair Display", serif;
             font-optical-sizing: auto;
         }
+        /*/////////////////////*/
+        .contact-section {
+            height: 120vh;
+            flex-direction: column;
+            justify-content: safe;
+            align-items: baseline;
+            padding: 15px;
+        }
+        .grid-contact {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 0px;
+            height: 355px;
+        }
+        .contact-row-content {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 155px;
+        }
+        .contact-form {
+            background-color: rgba(255, 241, 218, 0.97);
+            width: 90%;
+            height: 50%;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        .send-btn {
+            padding: 10px 25px;
+            width: 50%;
+        }
     }
