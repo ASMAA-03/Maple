@@ -669,7 +669,7 @@
         outline: none;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         .navbar {
             padding: 15px 30px;
         }
@@ -886,6 +886,231 @@
         }
         .qoute-text {
             font-size: 1.7rem;
+            width: 80%;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+        }
+        /*/////////////////////*/
+        .contact-section {
+            height: 120vh;
+            flex-direction: column;
+            justify-content: safe;
+            align-items: baseline;
+            padding: 15px;
+        }
+        .grid-contact {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 0px;
+            height: 355px;
+        }
+        .contact-row-content {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 155px;
+        }
+        .contact-form {
+            background-color: rgba(255, 241, 218, 0.97);
+            width: 90%;
+            height: 50%;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        .send-btn {
+            padding: 10px 25px;
+            width: 50%;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .navbar {
+            padding: 15px 30px;
+        }
+        .nav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0px;
+            background-color: rgba(255, 251, 238, 0.668);
+            padding: 40px 70px;
+            height: 40vh;
+            border-radius: 15px;
+        }
+        .hamburger {
+            display: inline;
+            color: rgb(115, 48, 1);
+        }
+        .nav-content.active {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+        }
+        .nav-links {
+            flex-direction: column;
+            gap: 55px;
+        }
+        .hamburger.active {
+            display: none;
+        }
+        .hero-content,
+        .hero-description {
+            width: 400px;
+        }
+        .logo {
+            font-size: 1.7rem;
+        }
+        .hero-description {
+            font-weight: 100;
+        }
+        .hero-buttons {
+            width: 100%;
+            flex-direction: row;
+        }
+        .experience {
+            padding: 70px 5px;
+            height: 65vh;
+        }
+        .card {
+            width: 640px;
+            padding-top: 25px;
+            padding-left: 120px;
+        }
+        .card-content {
+            font-size: 1.1rem;
+        }
+        .card-content span {
+            font-weight: 100;
+        }
+        .card::after {
+            font-size: 35px;
+            width: 70px;
+            height: 60px;
+            background-color: rgba(246, 209, 162, 0.892);
+            top: 20%;
+        }
+        .cards-contanier {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .latte-img {
+            width: 650px;
+            height: 420px;
+        }
+        .story-title {
+            font-size: 1.9rem;
+        }
+        .story-section {
+            padding: 45px 10px;
+            margin-bottom: 0px;
+        }
+        .story-container {
+            padding: 40px 10px;
+        }
+        .cta-section {
+            height: 45vh;
+        }
+        .cta-text {
+            text-align: center;
+            color: rgba(53, 28, 10, 0.826);
+            font-weight: 100;
+            width: 650px;
+            font-size: 1.5rem;
+            background-color: rgba(44, 20, 0, 0.042);
+        }
+        .footer-section {
+            grid-template-rows: 1fr;
+            padding: 15px;
+            gap: 20px;
+            font-size: 1rem;
+            height: 20vh;
+        }
+        .bottom-section {
+            height: 8vh;
+            margin-top: 25px;
+        }
+        /**/
+        .menu-section {
+            gap: 30px;
+            height: 740px;
+        }
+        .menu-section-items {
+            height: 400px;
+            margin-top: 2px;
+            width: 440px;
+            margin-top: 15px;
+        }
+        .menu-section-label {
+            font-size: 1rem;
+        }
+        .menu-section-title {
+            font-size: 2.8rem;
+        }
+        .drink-img {
+            height: 320px;
+            width: 265px;
+        }
+        .drinks-section {
+            padding: 230px 10px;
+        }
+        .drinks-category-container {
+            width: 100%;
+            height: 370px;
+        }
+        .drinks-category-container h1 {
+            font-size: 2.8rem;
+        }
+        /*/////////////////////////////////*/
+        /**/
+        .features-grid {
+            min-height: 50vh;
+            font-weight: 100;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .feature-item {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid rgba(115, 49, 1, 0.492);
+            border-radius: 15px;
+            height: 12vh;
+            width: 70%;
+        }
+        .feature-item span {
+            color: rgb(53, 28, 10);
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .feature-item p {
+            color: rgba(53, 28, 10, 0.842);
+            width: 100%;
+            margin-top: 10px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .qoute-section {
+            height: 50vh;
+            background-color: rgb(121, 43, 21);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgba(240, 248, 255, 0.979);
+            font-weight: 100;
+            text-align: center;
+            gap: 15px;
+            margin-bottom: 70px;
+            font-size: 0.7rem;
+        }
+        .qoute-text {
+            font-size: 1.9rem;
             width: 80%;
             font-family: "Playfair Display", serif;
             font-optical-sizing: auto;
